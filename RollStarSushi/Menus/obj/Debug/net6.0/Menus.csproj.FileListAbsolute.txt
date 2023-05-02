@@ -1,0 +1,15 @@
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\bin\Debug\net6.0\Menus.deps.json
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\bin\Debug\net6.0\Menus.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\bin\Debug\net6.0\Menus.pdb
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\bin\Debug\net6.0\Utilitarios.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\bin\Debug\net6.0\Utilitarios.pdb
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.csproj.AssemblyReference.cache
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.AssemblyInfoInputs.cache
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.AssemblyInfo.cs
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.csproj.CoreCompileInputs.cache
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.csproj.CopyComplete
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\refint\Menus.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\Menus.pdb
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Menus\obj\Debug\net6.0\ref\Menus.dll
