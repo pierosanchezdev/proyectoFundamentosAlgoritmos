@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\piero\\.nuget\\packages\\": {}
+    "C:\\Users\\Diana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
+      "projectUniqueName": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
       "projectName": "Utilitarios",
-      "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
-      "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
-      "outputPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\obj\\",
+      "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
+      "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

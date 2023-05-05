@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Proyecto\\Proyecto.csproj": {}
+    "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Proyecto\\Proyecto.csproj": {}
   },
   "projects": {
-    "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj": {
+    "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj",
+        "projectUniqueName": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj",
         "projectName": "Menus",
-        "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj",
-        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\obj\\",
+        "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj",
+        "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
-                "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj"
+              "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
+                "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj"
               }
             }
           }
@@ -59,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Proyecto\\Proyecto.csproj": {
+    "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Proyecto\\Proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Proyecto\\Proyecto.csproj",
+        "projectUniqueName": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Proyecto\\Proyecto.csproj",
         "projectName": "Proyecto",
-        "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Proyecto\\Proyecto.csproj",
-        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Proyecto\\obj\\",
+        "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Proyecto\\Proyecto.csproj",
+        "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,11 +87,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj": {
-                "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj"
+              "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj": {
+                "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj"
               },
-              "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
-                "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj"
+              "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
+                "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj"
               }
             }
           }
@@ -121,21 +121,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
+    "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
+        "projectUniqueName": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
         "projectName": "Utilitarios",
-        "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
-        "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
-        "outputPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\obj\\",
+        "projectPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj",
+        "packagesPath": "C:\\Users\\Diana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diana\\Desktop\\proyecto algoritmos\\proyecto\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Diana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

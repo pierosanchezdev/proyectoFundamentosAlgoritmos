@@ -16,6 +16,7 @@ namespace Proyecto
             int opcion;
             int[,] listaMesas = Util.CargaListaMesas();
             string[,] listaPersonal = Util.CargaDataInicialPersonal();
+            string[,] listaPlatillo = Util.CargaDataInicialPlatillos();
             Menu.MenuPrincipal();
             do
             {                
@@ -192,12 +193,26 @@ namespace Proyecto
                                         switch (opcion)
                                         {
                                             case 1:
+                                                Util.LimpiarPantalla();
+                                                listaPersonal = Util.CrearPlatillo(listaPlatillo);
+                                                Util.DetenerPrograma();
                                                 break;
                                             case 2:
+                                                Util.LimpiarPantalla();
+                                                Util.ListarPlatillo(listaPlatillo);
+                                                Util.DetenerPrograma();
                                                 break;
                                             case 3:
+                                                Util.LimpiarPantalla();
+                                                Util.ListarPlatillo(listaPlatillo);
+                                                listaPersonal = Util.EditarPlatillo(listaPlatillo);
+                                                Util.DetenerPrograma();
                                                 break;
                                             case 4:
+                                                Util.LimpiarPantalla();
+                                                Util.ListarPlatillo(listaPlatillo);
+                                                listaPersonal = Util.EliminarPlatillo(listaPlatillo);
+                                                Util.DetenerPrograma();
                                                 break;
                                             case 0:
                                                 Menu.MenuMantenimiento();

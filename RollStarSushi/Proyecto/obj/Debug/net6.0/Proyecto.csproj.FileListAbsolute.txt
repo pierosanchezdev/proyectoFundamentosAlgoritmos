@@ -18,3 +18,23 @@ D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Proyect
 D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.pdb
 D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.genruntimeconfig.cache
 D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Proyecto\obj\Debug\net6.0\ref\Proyecto.dll
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.csproj.AssemblyReference.cache
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.AssemblyInfoInputs.cache
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.AssemblyInfo.cs
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.dll
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\refint\Proyecto.dll
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.pdb
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Proyecto.exe
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Proyecto.deps.json
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Proyecto.runtimeconfig.json
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Proyecto.dll
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Proyecto.pdb
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Menus.dll
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Utilitarios.dll
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Menus.pdb
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\bin\Debug\net6.0\Utilitarios.pdb
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.csproj.CopyComplete
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\Proyecto.genruntimeconfig.cache
+C:\Users\Diana\Desktop\proyecto algoritmos\proyecto\proyectoFundamentosAlgoritmos\RollStarSushi\Proyecto\obj\Debug\net6.0\ref\Proyecto.dll

@@ -315,6 +315,121 @@ namespace Utilitarios
             }
         }
 
+
+        public static string[,] CargaDataInicialPlatillos()
+        {
+            string[,] array = new string[4, 4];
+            array[0, 0] = "Maki Inca";
+            array[0, 1] = "Hechos de quinua, palta, cebiche y camote.";
+            array[0, 2] = "20.00";
+            array[0, 3] = "Makis";
+            array[1, 0] = "Maki Andino";
+            array[1, 1] = "Hecho de trucha ahumada, queso andino, aji amarillo.";
+            array[1, 2] = "25.00";
+            array[1, 3] = "Makis";
+            array[2, 0] = "Maki Nikkei";
+            array[2, 1] = "Hecho de delicioso atún, mango, rocoto, mayonesa japonesa.";
+            array[2, 2] = "27.00";
+            array[2, 3] = "Maki";
+            array[3, 0] = "Chilcano de Maracuya";
+            array[3, 1] = "Rico refresco para la bariga";
+            array[3, 2] = "12.00";
+            array[3, 3] = "Refresco";
+            return array;
+        }
+
+        public static string[,] CrearPlatillo(string[,] listaPlatillo)
+        {
+            string nombre = ValidarCaracteres("Ingrese el nuevo platillo: ");
+            string descripción = ValidarCaracteres("Ingrese los ingredientes: ");
+            string precio = ValidarCaracteres("Ingrese el precio: S/");
+            string categoria = ValidarCaracteres("Ingrese la categoría: ");
+            int nuevaFila = listaPlatillo.GetLength(0) + 1;
+            string[,] nuevoArray = new string[nuevaFila, listaPlatillo.GetLength(1)];
+            for (int fila = 0; fila < listaPlatillo.GetLength(0); fila++)
+            {
+                for (int columna = 0; columna < listaPlatillo.GetLength(1); columna++)
+                {
+                    nuevoArray[fila, columna] = listaPlatillo[fila, columna];
+                }
+            }
+            nuevoArray[nuevaFila - 1, 0] = nombre;
+            nuevoArray[nuevaFila - 1, 1] = descripción;
+            nuevoArray[nuevaFila - 1, 2] = precio;
+            nuevoArray[nuevaFila - 1, 3] = categoria;
+            return nuevoArray;
+        }
+
+        public static string[,] EliminarPlatillo(string[,] listaPlatillo)
+        {
+            int filaActual = listaPlatillo.GetLength(0) - 1;
+            int nuevaFila = 0;
+            if (BuscarPlatillo(listaPlatillo))
+            {
+                string[,] nuevoArray = new string[filaActual, listaPlatillo.GetLength(1)];
+                for (int fila = 0; fila < listaPlatillo.GetLength(0); fila++)
+                {
+                    if (fila != indice)
+                    {
+                        for (int columna = 0; columna < listaPlatillo.GetLength(1); columna++)
+                        {
+                            nuevoArray[nuevaFila, columna] = listaPlatillo[fila, columna];
+                        }
+                        nuevaFila++;
+                    }
+                }
+                return nuevoArray;
+            }
+            return listaPlatillo;
+        }
+
+        public static string[,] EditarPlatillo(string[,] listaPlatillo)
+        {
+            if (BuscarPlatillo(listaPlatillo))
+            {
+                for (int fila = 0; fila < listaPlatillo.GetLength(0); fila++)
+                {
+                    if (fila == indice)
+                    {
+                        listaPlatillo[fila, 0] = ValidarCaracteres("Ingrese el nombre : ");
+                        listaPlatillo[fila, 1] = ValidarCaracteres("Ingrese los ingredientes: ");
+                        listaPlatillo[fila, 2] = ValidarCaracteres("Ingrese el precio: S/ ");
+                        listaPlatillo[fila, 3] = ValidarCaracteres("Ingrese la categoría: ");
+                        Console.WriteLine("El platillo ha sido editado correctamente");
+                    }
+                }
+            }
+            return listaPlatillo;
+        }
+
+        private static bool BuscarPlatillo(string[,] listaPlatillo)
+        {
+            Console.Write("Ingrese el ID del platillo: ");
+            indice = IngresarNumero() - 1;
+            for (int i = 0; i < listaPlatillo.GetLength(0); i++)
+            {
+                if (indice == i)
+                {
+                    return true;
+                }
+            }
+            Console.WriteLine("No se encontro el ID del empleado");
+            return false;
+        }
+
+        public static void ListarPlatillo(string[,] listaPlatillo)
+        {
+            Console.WriteLine("ID     |   NOMBRE      |      INGREDIENTES       |      PRECIO       |      CATEGORÍA    ");
+            for (int i = 0; i < listaPlatillo.GetLength(0); i++)
+            {
+                Console.Write($"{i + 1}      ");
+                for (int j = 0; j < listaPlatillo.GetLength(1); j++)
+                {
+                    Console.Write($"{listaPlatillo[i, j]}      ");
+                }
+                Console.WriteLine();
+            }
+        }
         public static string ValidarCaracteres(string mensaje)
         {
             string texto = string.Empty;
@@ -325,5 +440,12 @@ namespace Utilitarios
             }
             return texto;
         }
+
+
+
+
     }
+
 }
+ 
+
