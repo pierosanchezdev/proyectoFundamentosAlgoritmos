@@ -16,6 +16,7 @@ namespace Proyecto
             int opcion;
             int[,] listaMesas = Util.CargaListaMesas();
             string[,] listaPersonal = Util.CargaDataInicialPersonal();
+            string[,] listaMesasB = Util.CargaDataInicialMesas();
             Menu.MenuPrincipal();
             do
             {                
@@ -116,6 +117,7 @@ namespace Proyecto
                             opcion = Util.SeleccioneUnaOpcion();
                             switch (opcion)
                             {
+                                // Trabajar aquí
                                 case 1:
                                     do
                                     {
@@ -123,14 +125,31 @@ namespace Proyecto
                                         opcion = Util.SeleccioneUnaOpcion();
                                         switch (opcion)
                                         {
+                                            // Agregar mesa
                                             case 1:
+                                                Util.LimpiarPantalla();
+                                                listaMesasB = Util.AgregarMesa(listaMesasB);
+                                                Util.DetenerPrograma();
                                                 break;
+                                            // Listar mesas habilitadas
                                             case 2:
+                                                Util.LimpiarPantalla();
+                                                Util.ListarMesasB(listaMesasB);
+                                                Util.DetenerPrograma();
                                                 break;
+                                            // Editar mesas
                                             case 3:
+                                                Util.LimpiarPantalla();
+                                                Util.EditarMesas(listaMesasB);
+                                                Util.DetenerPrograma();
                                                 break;
+                                            // Eliminar mesas
                                             case 4:
+                                                Util.LimpiarPantalla();
+                                                Util.EliminarMesas(listaMesasB);
+                                                Util.DetenerPrograma();
                                                 break;
+                                            // Regresar
                                             case 0:
                                                 Menu.MenuMantenimiento();
                                                 continuar = false;

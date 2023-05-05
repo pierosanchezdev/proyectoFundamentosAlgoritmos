@@ -193,6 +193,126 @@ namespace Utilitarios
             return listaMesas;
         }
 
+        // Lista de mesas disponibles[]
+        public static string[,] CargaDataInicialMesas()
+        {
+            string[,] array = new string[10, 2];
+            array[0, 0] = "1";
+            array[0, 1] = "Muy bueno";
+            array[1, 0] = "2";
+            array[1, 1] = "Bueno";
+            array[2, 0] = "3";
+            array[2, 1] = "Muy bueno";
+            array[3, 0] = "4";
+            array[3, 1] = "Muy bueno";
+            array[4, 0] = "5";
+            array[4, 1] = "Regular";
+            array[5, 0] = "6";
+            array[5, 1] = "Muy bueno";
+            array[6, 0] = "7";
+            array[6, 1] = "Muy bueno";
+            array[7, 0] = "8";
+            array[7, 1] = "Muy bueno";
+            array[8, 0] = "9";
+            array[8, 1] = "Muy bueno";
+            array[9, 0] = "10";
+            array[9, 1] = "Muy bueno";
+            return array;
+        }
+        
+        // Crear una función de mesas 
+        public static string[,] AgregarMesa(string[,] listaMesaMantenimiento)
+        {
+            string n_mesa = ValidarCaracteres("Ingrese el número de mesa: ");
+            string estado = ValidarCaracteres("Ingrese estado de la mesa (muy bueno / bueno / regular / malo): ");
+                       
+            int nuevaFila = listaMesaMantenimiento.GetLength(0) + 1;
+            string[,] nuevoArray = new string[nuevaFila, listaMesaMantenimiento.GetLength(1)];
+            for (int fila = 0; fila < listaMesaMantenimiento.GetLength(0); fila++)
+            {
+                for (int columna = 0; columna < listaMesaMantenimiento.GetLength(1); columna++)
+                {
+                    nuevoArray[fila, columna] = listaMesaMantenimiento[fila, columna];
+                }
+            }
+            nuevoArray[nuevaFila - 1, 0] = n_mesa;
+            nuevoArray[nuevaFila - 1, 1] = estado;
+            return nuevoArray;
+        }
+
+        // Función de eliminar mesas
+        public static string[,] EliminarMesas(string[,] listaMesaMantenimiento)
+        {
+            int filaActual = listaMesaMantenimiento.GetLength(0) - 1;
+            int nuevaFila = 0;
+            if (BuscarPersonal(listaMesaMantenimiento))
+            {
+                string[,] nuevoArray = new string[filaActual, listaMesaMantenimiento.GetLength(1)];
+                for (int fila = 0; fila < listaMesaMantenimiento.GetLength(0); fila++)
+                {
+                    if (fila != indice)
+                    {
+                        for (int columna = 0; columna < listaMesaMantenimiento.GetLength(1); columna++)
+                        {
+                            nuevoArray[nuevaFila, columna] = listaMesaMantenimiento[fila, columna];
+                        }
+                        nuevaFila++;
+                    }
+                }
+                return nuevoArray;
+            }
+            return listaMesaMantenimiento;
+        }
+
+        // Editar mesas
+        public static string[,] EditarMesas(string[,] listaMesaMantenimiento)
+        {
+            if (BuscarMesas(listaMesaMantenimiento))
+            {
+                for (int fila = 0; fila < listaMesaMantenimiento.GetLength(0); fila++)
+                {
+                    if (fila == indice)
+                    {
+                        listaMesaMantenimiento[fila, 0] = ValidarCaracteres("Ingrese el número de mesa: ");
+                        listaMesaMantenimiento[fila, 1] = ValidarCaracteres("Ingrese estado de la mesa ((muy bueno / bueno / regular / malo): ");
+                    }
+                }
+            }
+            return listaMesaMantenimiento;
+        }
+
+        // Listar Mesas
+
+        public static void ListarMesasB(string[,] listaMesaMantenimiento)
+        {
+            Console.WriteLine("N°\nESTADO");
+            for (int i = 0; i < listaMesaMantenimiento.GetLength(0); i++)
+            {
+                Console.Write($"{i + 1}      ");
+                for (int j = 0; j < listaMesaMantenimiento.GetLength(1); j++)
+                {
+                    Console.Write($"{listaMesaMantenimiento[i, j]}      ");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        // Buscar mesas
+        private static bool BuscarMesas(string[,] listaMesaMantenimiento)
+        {
+            Console.Write("Ingrese el Número de Mesa: ");
+            indice = IngresarNumero() - 1;
+            for (int i = 0; i < listaMesaMantenimiento.GetLength(0); i++)
+            {
+                if (indice == i)
+                {
+                    return true;
+                }
+            }
+            Console.WriteLine("No se encontro el número de mesa");
+            return false;
+        }
+
         public static string[,] CargaDataInicialPersonal()
         {
             string[,] array = new string[4, 5];
@@ -325,5 +445,6 @@ namespace Utilitarios
             }
             return texto;
         }
+
     }
 }

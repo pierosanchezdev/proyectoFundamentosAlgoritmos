@@ -77,16 +77,17 @@ namespace Menus
             Console.WriteLine("0. Regresar");
         }
 
+        //Editar acá
         public static void MenuMantenimientoMesas()
         {
             Console.Clear();
             Util.GenerarAsteriscosCompletos();
             Util.GenerarAsteriscosCentral("Menu de Mantenimiento de Mesas");
             Util.GenerarAsteriscosCompletos();
-            Console.WriteLine("1. Crear Personal");
-            Console.WriteLine("2. Listar Personal");
-            Console.WriteLine("3. Editar Personal");
-            Console.WriteLine("4. Eliminar Personal");
+            Console.WriteLine("1. Agregar Mesa");
+            Console.WriteLine("2. Listar Mesas Habilitadas");
+            Console.WriteLine("3. Editar Mesas");
+            Console.WriteLine("4. Eliminar Mesa");
             Console.WriteLine("0. Regresar");
         }
 

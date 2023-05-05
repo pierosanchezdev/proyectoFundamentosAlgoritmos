@@ -10,3 +10,15 @@ D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilita
 D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\refint\Utilitarios.dll
 D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.pdb
 D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\ref\Utilitarios.dll
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\bin\Debug\net6.0\Utilitarios.deps.json
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\bin\Debug\net6.0\Utilitarios.dll
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\bin\Debug\net6.0\Utilitarios.pdb
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.csproj.AssemblyReference.cache
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.AssemblyInfoInputs.cache
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.AssemblyInfo.cs
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.dll
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\refint\Utilitarios.dll
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.pdb
+C:\Users\Virtualbox\project\proyectoFundamentosAlgoritmos\RollStarSushi\Utilitarios\obj\Debug\net6.0\ref\Utilitarios.dll

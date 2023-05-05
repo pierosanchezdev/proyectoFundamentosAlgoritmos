@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\piero\\.nuget\\packages\\": {}
+    "C:\\Users\\Virtualbox\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj",
+      "projectUniqueName": "C:\\Users\\Virtualbox\\project\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj",
       "projectName": "Menus",
-      "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\Menus.csproj",
-      "packagesPath": "C:\\Users\\piero\\.nuget\\packages\\",
-      "outputPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Menus\\obj\\",
+      "projectPath": "C:\\Users\\Virtualbox\\project\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\Menus.csproj",
+      "packagesPath": "C:\\Users\\Virtualbox\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Virtualbox\\project\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Menus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Virtualbox\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
-              "projectPath": "D:\\UPN\\Ciclo2\\FUNDAMENTOS DE PROGRAMACION\\Proyecto\\fuentes\\RollStarSushi\\Utilitarios\\Utilitarios.csproj"
+            "C:\\Users\\Virtualbox\\project\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj": {
+              "projectPath": "C:\\Users\\Virtualbox\\project\\proyectoFundamentosAlgoritmos\\RollStarSushi\\Utilitarios\\Utilitarios.csproj"
             }
           }
         }
@@ -84,7 +84,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
