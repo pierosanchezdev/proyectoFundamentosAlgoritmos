@@ -57,7 +57,7 @@ namespace Proyecto
                                             {
                                                 case 1:
                                                     Util.LimpiarPantalla();
-                                                    Util.ListarPedidosPorMesa(listaPedidosMesa);
+                                                    Util.ListarPedidosPorMesa(listaPedidosMesa, listaMesas);
                                                     Util.DetenerPrograma();
                                                     break;
                                                 case 2:
@@ -69,7 +69,7 @@ namespace Proyecto
                                                     break;
                                                 case 3:
                                                     Util.LimpiarPantalla();
-                                                    Util.ListarPedidosPorMesa(listaPedidosMesa);
+                                                    Util.ListarPedidosPorMesa(listaPedidosMesa, listaMesas);
                                                     listaPedidosMesa = Util.EliminarPedidoMesa(listaPedidosMesa);
                                                     Util.DetenerPrograma();
                                                     break;
@@ -110,11 +110,15 @@ namespace Proyecto
                             {
                                 case 1:
                                     Util.LimpiarPantalla();
-                                    Util.ListarPedidosPorMesa(listaPedidosMesa);
+                                    Util.ListarPedidosPorMesa(listaPedidosMesa, listaMesas);
+                                    Util.CalcularPreTotal(listaPedidosMesa, listaMesas);
                                     Util.DetenerPrograma();
                                     break;
                                 case 2:
                                     Util.LimpiarPantalla();
+                                    listaPedidosMesa = Util.EfectuarPagoMesa(listaPedidosMesa, listaMesas);
+                                    listaMesas = Util.DesocuparMesa(listaMesas);
+                                    Util.DetenerPrograma();
                                     break;
                                 case 0:
                                     Menu.MenuOpciones();

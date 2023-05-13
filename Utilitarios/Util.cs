@@ -327,10 +327,10 @@ namespace Utilitarios
 
         public static void ListarPersonal(string[,] listaPersonal)
         {
-            Console.WriteLine("ID     |   DNI      |      NOMBRES   |      APELLIDOS      |      CARGO      |      SUELDO   ");
+            Console.WriteLine("ID | DNI | NOMBRES | APELLIDOS | CARGO | SUELDO ");
             for (int i = 0; i < listaPersonal.GetLength(0); i++)
             {
-                Console.Write($"{i+1}      ");
+                Console.Write($"{i+1} | ");
                 for (int j = 0; j < listaPersonal.GetLength(1); j++)
                 {
                     Console.Write($"{listaPersonal[i, j]}      ");
@@ -443,10 +443,10 @@ namespace Utilitarios
 
         public static void ListarProductos(string[,] listaProductos)
         {
-            Console.WriteLine("ID     |   NOMBRE      |      PRECIO     ");
+            Console.WriteLine("ID | NOMBRE | PRECIO ");
             for (int i = 0; i < listaProductos.GetLength(0); i++)
             {
-                Console.Write($"{i + 1}      ");
+                Console.Write($"{i + 1} | ");
                 for (int j = 0; j < listaProductos.GetLength(1); j++)
                 {
                     Console.Write($"{listaProductos[i, j]}      ");
@@ -455,25 +455,28 @@ namespace Utilitarios
             }
         }
 
-        public static void ListarPedidosPorMesa(string[,] listaPedidosMesa)
+        public static void ListarPedidosPorMesa(string[,] listaPedidosMesa, int[,] listaMesa)
         {
             if (!VerificarListaPedidosVacia(listaPedidosMesa))
             {
-                int contador = 0;
-                Console.WriteLine("ID MESA   |    ID PEDIDO    |    PEDIDO    |    PRECIO");
-                for (int i = 0; i < listaPedidosMesa.GetLength(0); i++)
+                if (VerificarMesaOcupada(listaMesa))
                 {
-                    if(indiceMesa == int.Parse(listaPedidosMesa[i, 0]))
+                    int contador = 0;
+                    Console.WriteLine("ID MESA | ID PEDIDO | PEDIDO | PRECIO");
+                    for (int i = 0; i < listaPedidosMesa.GetLength(0); i++)
                     {
-                        contador++;
-                        Console.Write($"{i+1}    {int.Parse(listaPedidosMesa[i, 0])+1} {listaPedidosMesa[i, 2]}   {listaPedidosMesa[i, 3]}");
-                        Console.WriteLine();
-                    }                    
-                }
-                if(contador <= 0)
-                {
-                    Console.WriteLine("La mesa no tiene pedidos ingresados.");
-                }
+                        if (indiceMesa == int.Parse(listaPedidosMesa[i, 0]))
+                        {
+                            contador++;
+                            Console.Write($"{i + 1} | {int.Parse(listaPedidosMesa[i, 0]) + 1} | {listaPedidosMesa[i, 2]} | {listaPedidosMesa[i, 3]}");
+                            Console.WriteLine();
+                        }
+                    }
+                    if (contador <= 0)
+                    {
+                        Console.WriteLine("La mesa no tiene pedidos ingresados.");
+                    }
+                }                
             }
             else
             {
@@ -603,15 +606,67 @@ namespace Utilitarios
             return false;
         }
 
-        public static void EfectuarPagoMesa(string[,] listaPedidosMesa, int[,] listaMesa)
+        public static string[,] EfectuarPagoMesa(string[,] listaPedidosMesa, int[,] listaMesa)
         {
-            if (VerificarListaPedidosVacia(listaPedidosMesa))
+
+            if (!VerificarListaPedidosVacia(listaPedidosMesa))
             {
                 if (VerificarMesaOcupada(listaMesa))
                 {
-
+                    double preTotal = 0, igv = 0, total = 0;
+                    int contador = 0;
+                    for (int i = 0; i < listaPedidosMesa.GetLength(0); i++)
+                    {
+                        if (indiceMesa == int.Parse(listaPedidosMesa[i, 0]))
+                        {
+                            contador++;
+                            preTotal += double.Parse(listaPedidosMesa[i, 3]);
+                        }
+                    }
+                    igv = preTotal * 0.18;
+                    total = preTotal + igv;
+                    Console.WriteLine($"Pre total : {preTotal}");
+                    Console.WriteLine($"IGV 18% : {igv}");
+                    Console.WriteLine($"Total a pagar : {total}");
+                    int filaActual = listaPedidosMesa.GetLength(0) - contador;
+                    int nuevaFila = 0;
+                    string[,] nuevoArray = new string[filaActual, listaPedidosMesa.GetLength(1)];
+                    for (int fila = 0; fila < listaPedidosMesa.GetLength(0); fila++)
+                    {
+                        if (listaPedidosMesa[fila,0] != indiceMesa.ToString())
+                        {
+                            for (int columna = 0; columna < listaPedidosMesa.GetLength(1); columna++)
+                            {
+                                nuevoArray[nuevaFila, columna] = listaPedidosMesa[fila, columna];
+                            }
+                            nuevaFila++;
+                        }
+                    }
+                    return nuevoArray;
                 }
             }
+            return listaPedidosMesa;
+        }
+
+        public static void CalcularPreTotal(string[,] listaPedidosMesa, int[,] listaMesa)
+        {
+            if (!VerificarListaPedidosVacia(listaPedidosMesa))
+            {
+                double preTotal = 0, igv = 0, total = 0;
+                for (int i = 0; i < listaPedidosMesa.GetLength(0); i++)
+                {
+                    if (indiceMesa == int.Parse(listaPedidosMesa[i, 0]))
+                    {
+                        preTotal += double.Parse(listaPedidosMesa[i, 3]);
+                    }
+                }
+                igv = preTotal * 0.18;
+                total = preTotal + igv;
+                Console.WriteLine($"Pre total : {preTotal}");
+                Console.WriteLine($"IGV 18% : {igv}");
+                Console.WriteLine($"Total a pagar : {total}");
+            }
+
         }
 
         public static string ValidarCaracteres(string mensaje)
@@ -625,6 +680,23 @@ namespace Utilitarios
             return texto;
         }
 
-        
+        public static int[,] DesocuparMesa(int[,] listaMesas)
+        {
+            for (int i = 0; i < listaMesas.GetLength(0); i++)
+            {
+                if (indiceMesa == i)
+                {
+                    for (int j = 0; j < listaMesas.GetLength(1); j++)
+                    {
+                        if (listaMesas[i, j] == 1)
+                        {
+                            Console.WriteLine("Se efectuo el pago de la mesa correctamente");
+                            listaMesas[i, j] = 0;
+                        }
+                    }
+                }
+            }
+            return listaMesas;
+        }
     }
 }
