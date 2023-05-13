@@ -1,0 +1,12 @@
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\bin\Debug\net6.0\Utilitarios.deps.json
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\bin\Debug\net6.0\Utilitarios.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\bin\Debug\net6.0\Utilitarios.pdb
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.csproj.AssemblyReference.cache
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.AssemblyInfoInputs.cache
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.AssemblyInfo.cs
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.csproj.CoreCompileInputs.cache
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\refint\Utilitarios.dll
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\Utilitarios.pdb
+D:\UPN\Ciclo2\FUNDAMENTOS DE PROGRAMACION\Proyecto\fuentes\RollStarSushi\Utilitarios\obj\Debug\net6.0\ref\Utilitarios.dll

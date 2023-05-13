@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto", "Proyecto\Proyecto.csproj", "{9D42D7A0-DBA5-4A1F-A9AC-F83E964A4482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilitarios", "Utilitarios\Utilitarios.csproj", "{41491C68-CF10-4EC5-B5DE-DBDEF0EF0782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menus", "Menus\Menus.csproj", "{B67739A9-59D5-4730-AA1A-59467FAC08ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D42D7A0-DBA5-4A1F-A9AC-F83E964A4482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D42D7A0-DBA5-4A1F-A9AC-F83E964A4482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D42D7A0-DBA5-4A1F-A9AC-F83E964A4482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D42D7A0-DBA5-4A1F-A9AC-F83E964A4482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41491C68-CF10-4EC5-B5DE-DBDEF0EF0782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41491C68-CF10-4EC5-B5DE-DBDEF0EF0782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41491C68-CF10-4EC5-B5DE-DBDEF0EF0782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41491C68-CF10-4EC5-B5DE-DBDEF0EF0782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67739A9-59D5-4730-AA1A-59467FAC08ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67739A9-59D5-4730-AA1A-59467FAC08ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67739A9-59D5-4730-AA1A-59467FAC08ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67739A9-59D5-4730-AA1A-59467FAC08ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154C1CD4-6780-4AB0-8575-65724ADDBF57}
+	EndGlobalSection
+EndGlobal
