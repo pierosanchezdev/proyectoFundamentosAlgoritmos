@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Menus/1.0.0": {
+        "dependencies": {
+          "Utilitarios": "1.0.0"
+        },
+        "runtime": {
+          "Menus.dll": {}
+        }
+      },
+      "Utilitarios/1.0.0": {
+        "runtime": {
+          "Utilitarios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Menus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilitarios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
